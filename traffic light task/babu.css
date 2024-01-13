@@ -1,0 +1,112 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color: rgb(188, 243, 225);
+    
+}
+#traffic-light{
+    position: absolute;
+  top: 100px;
+  left: 45%;
+  width: 100px;
+  height: 250px;
+  border: 1px solid rgb(199, 30, 30);
+  border-radius: 20px;
+  background-color: black;
+     /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+/* } */
+/* .red-color,
+.yellow-color,
+.green-color {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(223, 169, 23);
+  border-radius: 25px
+}
+
+.red-color {
+  top: 25px;
+  left: 25px;
+}
+
+.yellow-color {
+  top: 100px;
+  left: 25px;
+}
+
+.green-color {
+  top: 175px;
+  left: 25px;
+} */ 
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-image: url(istockphoto-840002684-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.container {
+    height: 646px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    background-color: rgb(66, 64, 64);
+    box-shadow:inset 3px 3px 10px ,
+    3px 3px 5px #cccaca;
+    border: none;
+}
+.num-display{
+  width: 60%;
+  height: 10%;
+  border: none;
+  background-color: #414040;
+  box-shadow:inset 1px 1px 03px #030303,
+    1px 1px 03px   ;
+    color: azure;
+    font-size: xx-large;
+   
+    
+}
+.container2{
+    width: 10%;
+    margin-bottom:20% ;
+    margin-right: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(63, 76, 83);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px ,
+                 3px 3px 10px #414040
+                 
+           
+}
+/* #Red{
+  background-color: red;
+  
+}
+#yellow{
+  background-color:yellow;
+}
+#green{
+  background-color: green;
+} */
